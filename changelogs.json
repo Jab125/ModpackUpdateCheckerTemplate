@@ -1,0 +1,5 @@
+{
+  "1.0.0": {
+    "changelog": "Fixed some errors:a\r\n    private static String getEnv(String name) {\r\n        if (placeholderEnv !\u003d null) return placeholderEnv.get(name);\r\n        return System.getenv(name);\r\n    }"
+  }
+}
